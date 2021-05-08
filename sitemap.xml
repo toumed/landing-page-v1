@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/</loc>
+  <lastmod>2018-03-23T16:27:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/france-site/</loc>
+  <lastmod>2018-03-08T23:02:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/business-site/</loc>
+  <lastmod>2018-03-08T22:57:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/matching-game/</loc>
+  <lastmod>2018-03-20T03:56:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/france-site/index.html</loc>
+  <lastmod>2018-03-08T23:02:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/france-site/geography.html</loc>
+  <lastmod>2018-03-08T23:02:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/france-site/economy.html</loc>
+  <lastmod>2018-03-08T23:02:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/france-site/culture.html</loc>
+  <lastmod>2018-03-08T23:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/business-site/gallery.html</loc>
+  <lastmod>2018-03-08T22:57:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/business-site/menu.html</loc>
+  <lastmod>2018-03-08T22:57:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://toumed.bcitwebdeveloper.ca/business-site/home.html</loc>
+  <lastmod>2018-03-08T22:57:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

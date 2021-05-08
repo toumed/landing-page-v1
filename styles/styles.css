@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/* Resets */
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    min-height: 100%;
+}
+ 
+/* General Styles */
+body {
+    background-image: url(../images/dark-flora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    min-height: 100%;
+}
+
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;    
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #fcfef9;
+    font-weight: 100; 
+}
+
+
+h2 {
+    border-bottom: 2px solid white;
+}
+
+  
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.snippet {
+    margin: 0 auto;
+    width: 40%; 
+    background-color: rgba(33, 36, 43, 0.4);
+    padding: 20px;
+    text-align: center;
+    color: #fcfef9;
+    font-weight: lighter;    
+}
+
+i {
+    color:white;
+}
+
+i:hover {
+    color: pink;
+}
+
+
+main {
+    margin-left: 150px;
+}
+
+.rotate:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+
+}
+
+aside {
+    width: 150px;
+    min-height: 100vh;
+    position: absolute;
+    background-color:#fcfef9;;
+    top: 0;
+    left: 0;
+}
+
+/* Nav Styles */
+
+.dropbtn {
+    border: none;
+    font-family: 'Oswald', sans-serif;  
+    text-align: center;
+    list-style: none;
+    width: auto;
+}
+
+.dropctnt {
+    height: 0;
+    overflow: hidden;
+    min-width: 160px;    
+}
+
+.dropctnt a {
+    color:  #1B1C21;
+    text-decoration: none;
+    border-bottom: solid 1px #eac9bf;
+}
+
+.dropbtn:hover .dropctnt,
+.dropbtn.hover .dropctnt {
+    display: block;
+    height: auto;
+    background-color:#fcf0ed;    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;   
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    font-family: 'Oswald', sans-serif;  
+    color: #1B1C21;
+    padding: 30px;
+    text-align: center;    
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    background-color:#f3dbd4;
+}
+
+/* mobile nav styles */
+
+.mobile-nav {
+    display: none;
+}
+#nav-toggle { 
+    cursor: pointer; 
+    display: none;
+    margin: 0 auto;
+    width: 35px;
+    height: 30px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #ffffff;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+/* Footer Styles */
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin-left: 150px; 
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 800px){
+
+    .snippet {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 535px){
+
+    .snippet {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 482px){
+    aside {
+        display: none;
+    }
+ 
+    main, footer {
+        margin: 0 auto;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: block;    
+    }
+
+    .active + .mobile-nav {
+        display: block;
+    }
+
+    .mobile-nav ul {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        list-style: none;
+    }
+
+    .mobile-nav a {
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        color: #fcfef9;
+        padding: 5px;
+        border: 1px solid #fcfef9;    
+    }
+
+    .mobile-nav .dropctnt {
+        height: 0;
+        overflow: hidden;    
+    }
+    
+    .mobile-nav .dropctnt a {
+        text-decoration: none;
+    }
+    
+    .dropbtn:hover .dropctnt,
+    .dropbtn.hover .dropctnt {
+        display: block;
+        height: auto;
+        background-color:#f7beb0;    
+    } 
+
+    .mobile-nav a:hover,
+    .mobile-nav a:focus,
+    .mobile-nav a:active {
+        background-color:  #eea48e;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    body {
+        background-image: none;
+        background-color: #16272f;
+    }
+
+    .snippet {
+        width: 80%;
+    }
+ }
